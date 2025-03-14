@@ -1,4 +1,5 @@
 import 'package:blinkit_app/domain/constant/app_colors.dart';
+import 'package:blinkit_app/repository/screens/bottomnav/bottomnav_screen.dart';
 import 'package:blinkit_app/repository/widgets/ui_helper.dart';
 
 import 'package:flutter/material.dart';
@@ -65,10 +66,10 @@ class LoginScreen extends StatelessWidget {
                     width: 295,
                     child: ElevatedButton(
                         onPressed: () {
-                          // Navigator.pushReplacement(
-                          //     context,
-                          //     MaterialPageRoute(
-                          //         builder: (context) => BottomNavScreen()));
+                          Navigator.pushReplacement(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => BottomNavScreen()));
                         },
                         style: ElevatedButton.styleFrom(
                             backgroundColor: AppColors.primaryBtnColor,
