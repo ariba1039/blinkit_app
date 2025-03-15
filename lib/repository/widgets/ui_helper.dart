@@ -11,7 +11,7 @@ static CustomText(
       required Color color,
       required FontWeight fontweight,
       String? fontfamily,
-      required double fontsize, required Fontweight, required String Fontfamily}) {
+      required double fontsize, required Fontweight,}) {
     return Text(
       text,
       style: TextStyle(
@@ -27,7 +27,7 @@ static CustomText(
       width: 360,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(10),
-        color: Colors.white,
+        color: AppColors.primaryColor,
         border: Border.all(
           color: Color(0XFFC5C5C5)
         )

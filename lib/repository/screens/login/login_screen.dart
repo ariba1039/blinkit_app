@@ -5,6 +5,8 @@ import 'package:blinkit_app/repository/widgets/ui_helper.dart';
 import 'package:flutter/material.dart';
 
 class LoginScreen extends StatelessWidget {
+  const LoginScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -22,10 +24,10 @@ class LoginScreen extends StatelessWidget {
           ),
           UiHelper.CustomText(
               text: "India’s last minute app",
-              color: Color(0XFF000000),
+              color: AppColors.secondaryColor,
               fontweight: FontWeight.bold,
               fontsize: 20,
-               Fontweight: null, Fontfamily: ''),
+               Fontweight: null,),
           SizedBox(
             height: 20,
           ),
@@ -46,9 +48,9 @@ class LoginScreen extends StatelessWidget {
                   ),
                   UiHelper.CustomText(
                       text: "Continue with your phone number",
-                      color: Color(0XFF000000),
+                      color: AppColors.secondaryColor,
                       fontweight: FontWeight.w500,
-                      fontsize: 14, Fontweight: null, Fontfamily: '', ),
+                      fontsize: 14, Fontweight: null,  ),
                   SizedBox(
                     height: 5,
                   ),
@@ -57,7 +59,7 @@ class LoginScreen extends StatelessWidget {
                       color: AppColors.primaryGreyTextColor,
                       fontweight: FontWeight.bold,
                       fontsize: 14,
-                      Fontweight: null, Fontfamily: ''),
+                      Fontweight: null, ),
                   SizedBox(
                     height: 20,
                   ),
@@ -83,7 +85,7 @@ class LoginScreen extends StatelessWidget {
                                 color: AppColors.primaryColor,
                                 fontweight: FontWeight.bold,
                                 fontsize: 14,
-                                 Fontweight: null, Fontfamily: ''),
+                                 Fontweight: null, ),
                             SizedBox(
                               width: 5,
                             ),
@@ -99,7 +101,7 @@ class LoginScreen extends StatelessWidget {
                           "Access your saved addresses from Zomato automatically!",
                       color: AppColors.primaryGreyTextColor,
                       fontweight: FontWeight.normal,
-                      fontsize: 10, Fontweight: null, Fontfamily: '',),
+                      fontsize: 10, Fontweight: null, ),
                   SizedBox(
                     height: 15,
                   ),
@@ -107,7 +109,7 @@ class LoginScreen extends StatelessWidget {
                       text: "or login with phone number",
                       color: AppColors.secondaryGreenTextColor,
                       fontweight: FontWeight.normal,
-                      fontsize: 14, Fontweight: null, Fontfamily: '', )
+                      fontsize: 14, Fontweight: null, )
                 ],
               ),
             ),

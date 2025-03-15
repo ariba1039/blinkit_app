@@ -7,6 +7,8 @@ import 'package:blinkit_app/repository/widgets/ui_helper.dart';
 import 'package:flutter/material.dart';
 
 class BottomNavScreen extends StatefulWidget {
+  const BottomNavScreen({super.key});
+
   @override
   State<BottomNavScreen> createState() => _BottomNavScreenState();
 }

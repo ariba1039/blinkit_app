@@ -2,10 +2,11 @@ import 'package:blinkit_app/domain/constant/app_colors.dart';
 import 'package:blinkit_app/repository/widgets/ui_helper.dart';
 import 'package:flutter/material.dart';
 
-import 'package:flutter/material.dart';
 
 class CartScreen extends StatelessWidget {
   TextEditingController searchController = TextEditingController();
+
+  CartScreen({super.key});
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -32,7 +33,7 @@ class CartScreen extends StatelessWidget {
                           fontsize: 15,
                           fontfamily: "bold",
                           Fontweight: null,
-                          Fontfamily: '',
+                         
                         ),
                       ],
                     ),
@@ -46,7 +47,7 @@ class CartScreen extends StatelessWidget {
                           fontsize: 20,
                           fontfamily: "bold",
                           Fontweight: null,
-                          Fontfamily: '',
+                       
                         ),
                       ],
                     ),
@@ -59,14 +60,14 @@ class CartScreen extends StatelessWidget {
                           fontweight: FontWeight.bold,
                           fontsize: 14,
                           Fontweight: null,
-                          Fontfamily: '',
+                          fontfamily: '',
                         ),
                         UiHelper.CustomText(
                           text: "- Sujal Dave, Ratanada, Jodhpur (Raj)",
                           color: AppColors.secondaryColor,
                           fontweight: FontWeight.bold,
                           fontsize: 14,
-                          Fontfamily: '',
+                          fontfamily: '',
                           Fontweight: null,
                         ),
                       ],
@@ -104,7 +105,7 @@ class CartScreen extends StatelessWidget {
             fontsize: 16,
             fontfamily: "bold",
             Fontweight: null,
-            Fontfamily: '',
+          
           ),
           UiHelper.CustomText(
             text: "Items you order will show up here so you can buy",
@@ -112,7 +113,7 @@ class CartScreen extends StatelessWidget {
             fontweight: FontWeight.bold,
             fontsize: 12,
             Fontweight: null,
-            Fontfamily: '',
+            fontfamily: '',
           ),
           UiHelper.CustomText(
             text: "them again easily.",
@@ -121,7 +122,7 @@ class CartScreen extends StatelessWidget {
             fontsize: 12,
             fontfamily: '',
             Fontweight: null,
-            Fontfamily: '',
+           
           ),
           SizedBox(height: 30),
           Row(
@@ -134,7 +135,7 @@ class CartScreen extends StatelessWidget {
                 fontsize: 16,
                 fontfamily: "bold",
                 Fontweight: null,
-                Fontfamily: '',
+               
               ),
             ],
           ),
